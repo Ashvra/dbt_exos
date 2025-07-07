@@ -2,3 +2,11 @@
 target/
 dbt_packages/
 logs/
+# Environnement Python local
+my-dbt-env/
+# Cache Python
+__pycache__/
+*.pyc
+# Variables d’environnement et fichiers sensibles (si tu en utilises)
+.env
+*.db
